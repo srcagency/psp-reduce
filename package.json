@@ -1,0 +1,33 @@
+{
+	"name": "psp-reduce",
+	"version": "1.0.0",
+	"repository": "srcagency/psp-reduce",
+	"scripts": {
+		"test": "node test"
+	},
+	"dependencies": {
+		"psp-drain": "^1.0.0"
+	},
+	"devDependencies": {
+		"pull-stream": "^3.6.14",
+		"tape": "^4.11.0"
+	},
+	"prettier": {
+		"semi": false,
+		"singleQuote": true,
+		"useTabs": true,
+		"bracketSpacing": false,
+		"trailingComma": "es5",
+		"proseWrap": "always",
+		"tabWidth": 4,
+		"overrides": [
+			{
+				"files": "*.md",
+				"options": {
+					"useTabs": false,
+					"tabWidth": 2
+				}
+			}
+		]
+	}
+}
